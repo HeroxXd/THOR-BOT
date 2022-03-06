@@ -52,31 +52,30 @@ def get_readable_time(seconds: int) -> str:
 # Code editing and errors fixed by @souravkkk.
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a Superb Group Management Bot.
-You can find my list of available commands with /help.
+𝗛𝗲𝘆 𝗗𝗲𝗮𝗿 ... {}, 𝗜'𝗺 {}!
+𝗜 𝗮𝗺 𝗮𝗻 𝗔𝗻𝗶𝗺𝗲 𝘁𝗵𝗲𝗺𝗲𝗱 𝗴𝗿𝗼𝘂𝗽 𝗺𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗯𝗼𝘁 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 [𝗛 𝗘 𝗥 𝗢 𝗫](t.me/herox_xd).
+𝗜 𝗰𝗮𝗻 𝗺𝗮𝗻𝗮𝗴𝗲 𝘆𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 😌 🤘🏻 ... 𝗝𝘂𝘀𝘁 𝗮𝗱𝗱 𝗺𝗲 𝗶𝗻 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 !
+𝗙𝗼𝗿 𝗟𝗶𝘀𝘁 𝗼𝗳 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲 👉🏻 /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Telegram Group Management Bot and help admins/owners manage their groups in easy way! Have a look at the following for an idea of some of \
-the things I can help you with.
-
+𝗛𝗲𝘆 𝗠𝗿 / 𝗠𝗿𝘀 𝗜 𝗮𝗺  *{}* 😪.
+𝗜 𝗮𝗺 𝘄𝗲𝗹𝗹 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗥𝗼𝗯𝗼𝘁 .. 𝗶 𝗰𝗮𝗻 𝗵𝗮𝗻𝗱𝗹𝗲 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽  😪.. 𝗔𝗻𝗱   𝗜 𝗰𝗮𝗻 𝗮𝗹𝘀𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗶𝗻 𝗩𝗖 . 𝗔𝗻𝗱 𝗵𝗶𝗴𝗵 𝗾𝘂𝗮𝗹𝗶𝘁𝘆 𝗩𝗶𝗱𝗲𝗼 .. ✓ 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗮𝗻𝘆 𝗟𝗮𝗴.
 *Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
-
+ • `/help` : 𝗣𝗠'𝘀 𝘆𝗼𝘂 𝘁𝗵𝗶𝘀 𝗺𝗲𝘀𝘀𝗮𝗴𝗲.
+ • `/help <module name>` : 𝗣𝗠'𝘀 𝘆𝗼𝘂 𝗶𝗻𝗳𝗼 𝗮𝗯𝗼𝘂𝘁 𝘁𝗵𝗮𝘁 𝗺𝗼𝗱𝘂𝗹𝗲..
+ • `/donate` : 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗼𝗻 𝗵𝗼𝘄 𝘁𝗼 𝗱𝗼𝗻𝗮𝘁𝗲!
+ • `/settings`:
+   • 𝗶𝗻 𝗣𝗠: 𝘄𝗶𝗹𝗹 𝘀𝗲𝗻𝗱 𝘆𝗼𝘂 𝘆𝗼𝘂𝗿 𝘀𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝘀𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗱 𝗺𝗼𝗱𝘂𝗹𝗲𝘀.
+   • 𝗶𝗻 𝗮 𝗴𝗿𝗼𝘂𝗽: 𝘄𝗶𝗹𝗹 𝗿𝗲𝗱𝗶𝗿𝗲𝗰𝘁 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗺, 𝘄𝗶𝘁𝗵 𝗮𝗹𝗹 𝘁𝗵𝗮𝘁 𝗰𝗵𝗮𝘁'𝘀 𝘀𝗲𝘁𝘁𝗶𝗻𝗴𝘀.
 
 {}
 And the following:
 """.format(
     dispatcher.bot.first_name, ""
-    if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
+    if not ALLOW_EXCL else "\n𝗔𝗹𝗹 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗰𝗮𝗻 𝗲𝗶𝘁𝗵𝗲𝗿 𝗯𝗲 𝘂𝘀𝗲𝗱 𝘄𝗶𝘁𝗵 / 𝗼𝗿 !.\n")
 
-THOR_IMG = "https://telegra.ph/file/49bfca4376b68a8b1cb84.jpg"
+THOR_IMG = "https://telegra.ph/file/d9a80c6fbf477b9cdf8dd.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -192,34 +191,39 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[
-                        InlineKeyboardButton(
-                            text="☑️ Add THOR BOT to your group",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
-                    ],
-                     [
-                         InlineKeyboardButton(
-                             text="🚑 Support Channel",
-                             url=f"https://t.me/opthorlogs"),
-                         InlineKeyboardButton(
-                             text="Support Chat 🚑",
-                             url="https://t.me/Breakers_Support")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🧑‍💻Developer🧑‍💻",
-                             url="https://t.me/souravkkk")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="❤️DONATE❤️",
-                             url="https://t.me/skgoyalapl")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/anime-thor/THOR-BOT")
+                   [
+                        [
+                            InlineKeyboardButton(
+                                text="➕ 𝗔𝗱𝗱 𝗺𝗲 𝗶𝗻 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ➕",
+                                url="t.me/{}?startgroup=true".format(
+                                    context.bot.username,
+                                ),
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗚𝗿𝗼𝘂𝗽 🔍",
+                                url=f"https://t.me/{SUPPORT_CHAT}",
+                            ),
+                            InlineKeyboardButton(
+                                text="𝗨𝗽𝗱𝗮𝘁𝗲𝘀 🖱",
+                                url="https://t.me/seven_7_ring",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="𝗖𝗵𝗮𝘁𝘁𝗶𝗻𝗴 𝗚𝗿𝗼𝘂𝗽 💬",
+                                url="https://t.me/sevenrings_chatting_zone",
+                            ),
+                            InlineKeyboardButton(
+                                text="➢ ❂ 𝗢 𝗪 𝗡 𝗘 𝗥 ❂ ≣ 🕊",
+                                url="https://t.me/Herox_Phantom",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="📢 𝗡𝗲𝘁𝘄𝗼𝗿𝗸",
+                                url="https://t.me/Seven_7_Ring")
                      ]]))
     else:
         update.effective_message.reply_text(
