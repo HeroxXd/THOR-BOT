@@ -74,7 +74,7 @@ So just go and read the config sample file.
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/souravk12/THOR-BOT.git) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HeroxXd/THOR-BOT.git) 
 
 
 ## Credits
